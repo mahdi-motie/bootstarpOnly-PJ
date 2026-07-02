@@ -3,20 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="./bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       rel="stylesheet"
     />
     <title>Bootstrap project</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-danger z-3 position-fixed w-100">
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-danger z-3 position-sticky w-100">
       <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">Bootstrap.PJ</a>
+        <a class="navbar-brand text-light" href="./index.html">Bootstrap.PJ</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,7 +28,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="./index.html"
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./index.html"
                 >Home</a
               >
             </li>
@@ -77,6 +77,248 @@
       </div>
     </nav>
 
+    <section class="w-75 m-auto mt-4">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/ChatGPT Image ۷ تیر ۱۴۰۵، ۱۶_۲۷_۵۵.png"
+              class="d-block w-100 curser rounded-3"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/ChatGPT Image ۷ تیر ۱۴۰۵، ۱۶_۲۹_۰۹.png"
+              class="d-block w-100 rounded-3"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="m-auto w-100">
+      <div class="row w-100 justify-content-evenly mt-5">
+        <div
+          class="card bg-transparent border-0 card-link"
+          style="width: 30rem"
+        >
+          <img
+            src="./assets/images/learn.jpg"
+            class="card-img-top rounded-4"
+            alt="..."
+          />
+        </div>
+        <div
+          class="card bg-transparent border-0 card-link"
+          style="width: 30rem"
+        >
+          <img
+            src="./assets/images/tutorial.jpg"
+            class="card-img-top rounded-4"
+            alt="..."
+          />
+        </div>
+        <div
+          class="card bg-transparent border-0 card-link"
+          style="width: 30rem"
+        >
+          <img
+            src="./assets/images/mag.jpg"
+            class="card-img-top rounded-4"
+            alt="..."
+          />
+        </div>
+      </div>
+    </section>
+    <section class="comments mt-5">
+      <p class="w-75 m-auto pb-3 pt-2 text-light fs-1 font-monospace text-center border border-top-1 border-bottom-0 border-start-0 border-end-0">Comments</p>
+      <div class="row gap-5 justify-content-evenly">
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >MM</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">Mahdi Motie</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">The best website in the world</div>
+        </div>
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >NB</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">NimaBt</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">Best supports OAT</div>
+        </div>
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >SM</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">Prof.Sameeie</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">The best website in the world</div>
+        </div>
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >SM</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">Mahdi Motie</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">The best website in the world</div>
+        </div>
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >MM</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">Mahdi Motie</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">The best website in the world</div>
+        </div>
+        <div class="card w-25">
+          <div class="card-header d-flex align-items-center border-bottom">
+            <span
+              class="avatar text-bg-primary avatar-lg fs-5 rounded-circle p-2"
+              >MM</span
+            >
+            <div class="ms-3">
+              <h6 class="mb-0 fs-sm">Mahdi Motie</h6>
+              <span class="text-muted fs-sm">September 14, 2022</span>
+            </div>
+            <button class="btn text-muted ms-auto" type="btn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+          <div class="card-body">The best website in the world</div>
+        </div>
+      </div>
+    </section>
+    <footer class="w-75 m-auto mt-4 text-light pt-4 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+              ante mollis quam tristique convallis.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Follow Us</h5>
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="bi bi-facebook">Facebook</i></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><i class="bi bi-twitter">Twitter</i></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="bi bi-instagram">Instagram</i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2026 EA Company. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./bootstrap.bundle.min.js"></script>
   </body>
 </html>
