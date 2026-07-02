@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Login</title>
+  </head>
+  <body class="bg-black text-light">
+    <nav class="navbar navbar-expand-lg bg-danger z-3 w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light m-auto fs-3" href="./index.html">Bootstrap.PJ</a>
+      </div>
+    </nav>
+
+    <section class="layout w-25 m-auto mt-5 p-3 bg-dark text-light rounded-4">
+      <div class="title text-center fs-3 mb-3">Sign-In</div>
+      <div class="form-sign-in p-2">
+        <div class="input-group mb-4">
+          <span class="input-group-text bg-danger text-light" id="basic-addon1"
+            >UserName</span
+          >
+          <input
+            type="text"
+            class="form-control opacity-75"
+            placeholder="Please Insert Your Username Here"
+            aria-label="Please Insert Your Username Here"
+            aria-describedby="basic-addon1"
+            required
+          />
+        </div>
+        <div class="input-group mb-5">
+          <span class="input-group-text bg-warning text-dark" id="basic-addon1"
+            >Fullname</span
+          >
+          <input
+            type="text"
+            class="form-control opacity-75"
+            placeholder="Enter Your Fullname :"
+            aria-label="Enter Your Fullname :"
+            aria-describedby="basic-addon1"
+            required
+          />
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-4">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+            required
+          />
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <div class="mb-3">
+          <label for="basic-url" class="form-label">Your vanity URL</label>
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon3"
+              >https://example.com/users/</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3 basic-addon4"
+              required
+            />
+          </div>
+          <div class="form-text text-danger" id="basic-addon4">
+            Example help text goes outside the input group.
+          </div>
+        </div>
+
+        <div class="d-grid gap-2 m-auto pt-4">
+          <button class="btn btn-primary p-2" type="button">Submit</button>
+          <button class="btn btn-outline-secondary p-2" type="button">
+            Log-in
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

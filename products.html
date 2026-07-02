@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Bootstrap project</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-warning z-3 position-fixed top-0 w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Bootstrap.PJ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="./products.html"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Support</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-3 w-100"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <a href="./login.html">
+              <button class="btn btn-outline-light text-light" type="button">
+                Login
+              </button>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="top-ctg row pt-5 mt-5 w-100">
+      <div
+        class="card m-auto border-danger rounded-4 text-center"
+        style="width: 15rem"
+      >
+        <img
+          src="./assets/images/mercury-x-pro-.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text text-center fs-2 font-monospace">Mouse</p>
+          <a href="./" class="card-link text-black text-decoration-none"
+            >View more ></a
+          >
+        </div>
+      </div>
+      <div
+        class="card m-auto border-danger rounded-4 text-center"
+        style="width: 15rem"
+      >
+        <img
+          src="./assets/images/PG27AQWP-W-300x300.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text text-center fs-2 font-monospace">Monitor</p>
+          <a href="#" class="card-link text-black text-decoration-none"
+            >View more ></a
+          >
+        </div>
+      </div>
+      <div
+        class="card m-auto border-danger rounded-4 text-center"
+        style="width: 15rem"
+      >
+        <img
+          src="./assets/images/HATSUNE_MIKU_EDITION-300x300.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text text-center fs-2 font-monospace">Case</p>
+          <a href="#" class="card-link text-black text-decoration-none"
+            >View more ></a
+          >
+        </div>
+      </div>
+      <div
+        class="card m-auto border-danger rounded-4 text-center"
+        style="width: 15rem"
+      >
+        <img
+          src="./assets/images/Blackwidow-V4X-Minecraft-1-300x300.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text text-center fs-2 font-monospace">Keyboard</p>
+          <a href="#" class="card-link text-black text-decoration-none"
+            >View more ></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="products w-75 m-auto mt-5 p-3 rounded-4 border border-1 border-warning"
+    >
+      <p class="text-light">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt
+        dicta odio fugiat. Vitae, similique adipisci, corporis, tempora
+        architecto facilis sit asperiores ipsa eum deserunt accusamus fugiat
+        sapiente soluta quod.
+      </p>
+    </section>
+
+    <section class="products row gap-5 w-100 justify-content-center mt-5">
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/mercury-x-pro-.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboar1.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/case1.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor1.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/mouse2.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard2.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/case2.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/mouse3.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor2.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor3.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/mouse4.jpg"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard3.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/case3.jpg"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor4.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/mouse1.jpg"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard3.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard4.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard5.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor5.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/case5.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/monitor1.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card p-2" style="width: 15rem">
+        <img
+          src="./assets/images/keyboard5.webp"
+          class="card-img-top border border-1 border-black rounded-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+    </section>
+    <footer class="w-75 m-auto mt-4 text-light pt-4 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+              ante mollis quam tristique convallis.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Follow Us</h5>
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="bi bi-facebook">Facebook</i></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><i class="bi bi-twitter">Twitter</i></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="bi bi-instagram">Instagram</i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2026 EA Company. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
